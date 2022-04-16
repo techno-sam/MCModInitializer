@@ -83,8 +83,7 @@ def recursive_rename_copy(path: str, converter: Renamer) -> None:
                 f.write(new_contents)
 
 
-# renamer = Renamer(input("lower_case mod name: "), input("CamelCase mod name: "), input("Display Case mod name: "))
-renamer = Renamer("new_mod", "NewMod", "New Mod")
+renamer = Renamer(input("lower_case mod name: "), input("CamelCase mod name: "), input("Display Case mod name: "))
 print(renamer)
 
 base_path = os.path.dirname(__file__)
