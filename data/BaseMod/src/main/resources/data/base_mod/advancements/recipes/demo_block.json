@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "base_mod:demo_block"
+    ]
+  },
+  "criteria": {
+    "has_demo_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "base_mod:demo_item"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "base_mod:demo_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_demo_item",
+      "has_the_recipe"
+    ]
+  ]
+}

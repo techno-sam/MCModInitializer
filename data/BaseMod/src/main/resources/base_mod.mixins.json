@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.slimeist.base_mod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "base_mod.refmap.json",
+  "mixins": [
+    "MixinEntity"
+  ],
+  "minVersion": "0.8",
+  "client": [
+    "client.MixinEntityClient"
+  ]
+}

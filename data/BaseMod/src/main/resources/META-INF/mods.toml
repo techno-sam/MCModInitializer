@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License v3.0"
+
+[[mods]]
+modId="base_mod"
+version="${version}"
+displayName="Base Mod"
+#logoFile="examplemod.png"
+credits="Code and textures by Slimeist"
+authors="Slimeist"
+description='''
+Base Mod is a very basic mod.
+'''
+
+[[dependencies.base_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.base_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
